@@ -1,0 +1,73 @@
+
+body {
+	background-size: 100%;
+  background-image: url(img/mountains.jpg);
+  background-repeat: repeat;
+}
+
+#align-left {
+	padding-left: 4%;
+	text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+
+#align {
+   text-decoration: none;
+   padding: 7px 7px;
+   background-color: darkorange;
+   color: white;
+   border-radius: 4%;
+   font-size: 14px;
+   border: 1px;
+   border-color: #111100;
+   float: center;
+   margin-left: 63%;
+}
+
+#aboutMeNav {
+	background-color: #004466;
+	padding: 1.7% 0%;
+}
+
+#login {
+	text-decoration: none;
+    padding-left: 10%;
+    color: white;
+    float: right;
+    padding-right: 3%
+}
+
+#orange {
+    color: orange;
+}
+
+#biography {
+	max-width: 40%;
+	background-color: transparent-gray;
+	float: right;
+	padding: 10% 15% 0% 0%;
+}
+
+h1 {
+	font-size: 300%;
+	color: white;
+}
+
+h2 {
+  color: yellow
+}
+
+#email {
+    padding: 10px 10px 10px 10px;
+    background-color: #777700;
+    border-color: black;
+    border-radius: 50%;
+}
+
+@media only screen and (max-width: 500px) {
+  body {
+  background-image: url(img/mountainssmall.j0pg);
+  background-repeat: no-repeat;
+ }
+}
